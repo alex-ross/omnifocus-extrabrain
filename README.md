@@ -38,6 +38,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ### Some todos, will you or me fix them first?
 
-[ ] Allows user to choose between keychain or other authentication method
-[ ] If no keychain for Extrabrain exists, ask user if one should be created and create one from the credentials the user gives.
+❒ Allows user to choose between keychain or other authentication method
+
+❒ If no keychain for Extrabrain exists, ask user if one should be created and create one from the credentials the user gives.
 
