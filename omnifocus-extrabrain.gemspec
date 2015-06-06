@@ -5,7 +5,7 @@ require 'omnifocus/extrabrain/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "omnifocus-extrabrain"
-  spec.version       = Omnifocus::Extrabrain::VERSION
+  spec.version       = OmniFocus::Extrabrain::VERSION
   spec.authors       = ["Alexander Ross"]
   spec.email         = ["alex@aross.se"]
 
@@ -26,6 +26,9 @@ Gem::Specification.new do |spec|
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+
+  spec.add_dependency 'rest-client'
+  spec.add_dependency 'ruby-keychain'
 
   spec.add_development_dependency "bundler", "~> 1.9"
   spec.add_development_dependency "rake", "~> 10.0"

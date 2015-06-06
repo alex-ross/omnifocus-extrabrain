@@ -1,8 +1,8 @@
 require 'spec_helper'
 
-describe Omnifocus::Extrabrain do
+describe OmniFocus::Extrabrain do
   it 'has a version number' do
-    expect(Omnifocus::Extrabrain::VERSION).not_to be nil
+    expect(OmniFocus::Extrabrain::VERSION).not_to be nil
   end
 
   it 'does something useful' do
